@@ -1,0 +1,178 @@
+body{
+  background-image: url('Assets/bg.jpg');
+  background-size: contain;
+  font-family: sans-serif;
+  margin: 0px;
+  color: white;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#logo{
+  width: 150px;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar ul{
+  list-style: none;
+}
+#navbar li{
+  display: inline;
+}
+#navbar a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#titles{
+  width: 400px;
+  padding-left: 100px;
+}
+#first{
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+#second ul{
+  list-style: none;
+}
+#second li{
+  display: inline;
+}
+#second img{
+  width: 200px
+}
+
+.title2{
+  padding-left: 40%;
+}
+.title2 h1{
+  padding-left: 6%;
+}
+
+.square{
+  float: right;
+  background: white;
+  border-width: 5px;
+  border-color: red;
+  color: black;
+  padding-right: 20px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.square:hover{
+  background: yellow;
+}
+
+#para{
+  width: 350px;
+  height: 250px;
+  padding: 30px;
+}
+
+#nigger{
+  width: 20%;
+}
+#one{
+  width: 200px;
+}
+#two{
+  width: 100px;
+}
+#nigger:hover{
+  transform: scale(1.5);
+}
+#nigger:active{
+  transform: scale(1.25);
+}
+
+#data{
+  list-style: none;
+}
+#data li{
+  display: inline;
+}
+
+#second img:hover{
+  transform: scale(1.5);
+}
+#second img:active{
+  transform: scale(1.25);
+}
+
+#last{
+  width: 60%;
+  height: 400px;
+}
+
+#finish{
+  font-size: 20px;
+  padding-left: 40%;
+}
+#finish img{
+  width: 20px;
+}
+#finish ul{
+  list-style: none;
+}
+#finish li{
+  display: inline;
+}
+#finish h1{
+  font-size: 20px;
+}
+#finish a{
+  text-decoration: none;
+  color: white;
+}
+
+#temp{
+  width: 80%;
+  margin: auto;
+}
+.form{
+	padding:20px;
+}
+
+.form .nastyform{
+	padding-bottom:15px;
+}
+
+.form label{
+	display:block;
+}
+
+.form input[type="text"], .form textarea, .form input[type="email" type="Address"]{
+	padding:8px;
+	width:80%;
+}
+
+.title3{
+  padding-left: 30%;
+}
+
+.nastybutton{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.nastybutton:hover{
+  transform: scale(1.5);
+}
+
+.nastybutton:active{
+	background:red;
+	color:#fff;
+}
